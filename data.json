@@ -1,36 +1,6 @@
 {
   "members": [
     {
-      "id": "1",
-      "name": "張紜碩",
-      "currentTask": {
-        "title": "demp vtol 三桿件製作",
-        "deadline": "2024-12-18",
-        "group": "結構設計",
-        "progress": 30
-      },
-      "stats": {
-        "success": 1,
-        "failed": 0
-      },
-      "history": []
-    },
-    {
-      "id": "2",
-      "name": "王祈淳",
-      "currentTask": {
-        "title": "完成編隊模擬",
-        "deadline": "2025-01-09",
-        "group": "電裝控制",
-        "progress": 50
-      },
-      "stats": {
-        "success": 0,
-        "failed": 1
-      },
-      "history": []
-    },
-    {
       "id": "3",
       "name": "許秉凱",
       "currentTask": {
@@ -127,6 +97,36 @@
         "title": "待定",
         "deadline": "2024-12-15",
         "group": "公關相關",
+        "progress": 0
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "1765469835495",
+      "name": "張耘碩",
+      "currentTask": {
+        "title": "New Task",
+        "deadline": "2025-12-11",
+        "group": "電裝控制",
+        "progress": 0
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "1765469859563",
+      "name": "王祈淳",
+      "currentTask": {
+        "title": "New Task",
+        "deadline": "2025-12-11",
+        "group": "電裝控制",
         "progress": 0
       },
       "stats": {

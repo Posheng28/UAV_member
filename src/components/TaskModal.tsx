@@ -135,7 +135,7 @@ export default function TaskModal({ member, onClose, onUpdate }: TaskModalProps)
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 0, pointerEvents: 'none' }}
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
         >
             <motion.div
@@ -164,17 +164,15 @@ export default function TaskModal({ member, onClose, onUpdate }: TaskModalProps)
                     <div className="flex gap-4 mb-6 border-b border-white/10 pb-2 sticky top-0 bg-[#0f172a] z-10 pt-2">
                         <button
                             onClick={() => setView('edit')}
-                            className={`text-sm font-medium pb-2 relative transition-colors ${view === 'edit' ? 'text-white' : 'text-muted-foreground hover:text-white/80'}`}
+                            className={`text-sm font-medium pb-2 relative transition-colors ${view === 'edit' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-muted-foreground hover:text-white/80'}`}
                         >
                             Current Task
-                            {view === 'edit' && <motion.div layoutId="underline" className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500" />}
                         </button>
                         <button
                             onClick={() => setView('history')}
-                            className={`text-sm font-medium pb-2 relative transition-colors ${view === 'history' ? 'text-white' : 'text-muted-foreground hover:text-white/80'}`}
+                            className={`text-sm font-medium pb-2 relative transition-colors ${view === 'history' ? 'text-blue-400 border-b-2 border-blue-400' : 'text-muted-foreground hover:text-white/80'}`}
                         >
                             History ({member.history.length})
-                            {view === 'history' && <motion.div layoutId="underline" className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-500" />}
                         </button>
                     </div>
 
