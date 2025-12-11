@@ -1,0 +1,139 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "張紜碩",
+      "currentTask": {
+        "title": "demp vtol 三桿件製作",
+        "deadline": "2024-12-18",
+        "group": "結構設計",
+        "progress": 30
+      },
+      "stats": {
+        "success": 1,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2",
+      "name": "王祈淳",
+      "currentTask": {
+        "title": "完成編隊模擬",
+        "deadline": "2025-01-09",
+        "group": "電裝控制",
+        "progress": 50
+      },
+      "stats": {
+        "success": 0,
+        "failed": 1
+      },
+      "history": []
+    },
+    {
+      "id": "3",
+      "name": "許秉凱",
+      "currentTask": {
+        "title": "研究教學方向、需求表",
+        "deadline": "2024-12-11",
+        "group": "教學相關",
+        "progress": 100
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "4",
+      "name": "張民彥",
+      "currentTask": {
+        "title": "社會責任辦公室立案",
+        "deadline": "2024-12-11",
+        "group": "公關相關",
+        "progress": 0
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "5",
+      "name": "陳柏諺",
+      "currentTask": {
+        "title": "西門子solidworks 介紹檔案",
+        "deadline": "2024-12-01",
+        "group": "結構設計",
+        "progress": 10
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "6",
+      "name": "藍翰廷",
+      "currentTask": {
+        "title": "fusion360",
+        "deadline": "2024-12-03",
+        "group": "結構設計",
+        "progress": 60
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "7",
+      "name": "鄭敘廷",
+      "currentTask": {
+        "title": "yolo訓練",
+        "deadline": "2024-12-11",
+        "group": "電裝控制",
+        "progress": 80
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "8",
+      "name": "林長禧",
+      "currentTask": {
+        "title": "待定",
+        "deadline": "2024-12-04",
+        "group": "教學相關",
+        "progress": 0
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    },
+    {
+      "id": "9",
+      "name": "賴駿榮",
+      "currentTask": {
+        "title": "待定",
+        "deadline": "2024-12-15",
+        "group": "公關相關",
+        "progress": 0
+      },
+      "stats": {
+        "success": 0,
+        "failed": 0
+      },
+      "history": []
+    }
+  ]
+}
